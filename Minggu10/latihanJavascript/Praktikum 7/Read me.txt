@@ -1,0 +1,5 @@
+Dialog confirm() digunakan untuk melakukan konfirmasi dalam 
+melakukan tindakan tertentu, misalnya pada saat akan menghapus 
+sesuatu, maka ada baiknya menampilkan dialog confirm(). Karena 
+tindakan tersebut cukup berbahaya.
+Dialog confirm dapat dibuat dengan fungsi confirm().

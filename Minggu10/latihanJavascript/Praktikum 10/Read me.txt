@@ -1,0 +1,15 @@
+Apa bedanya operator penugasan dengan operator aritmatika?
+Operator aritmatika hanya melakukan operasi aritmatika saja, 
+sedangkan operator penugasan melakukan operasi aritmatika dan 
+juga pengisian.
+
+Operator Perbandingan
+Operator relasi atau perbandingan adalah operator yang digunakan 
+untuk membandingkan dua nilai, operator perbandingan akan 
+menghasilkan sebuah nilai boolean true dan false.
+
+Apa perbedaan == (dua simbol samadengan) dengan === (tiga 
+simbol samadengan)?
+Perbandingan menggunakan simbol == hanya membandingkan 
+nilai, sedangkan menggunakan === akan membandingkan nilai dan
+tipe data.

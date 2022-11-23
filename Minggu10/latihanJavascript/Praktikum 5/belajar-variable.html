@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Belajar Variabel dalam Javascript</title>
+ <script>
+ // membuat variabel
+ var name = "belajar Kode";
+ var visitorCount = 1000;
+ var isActive = true;
+ var url = "http://dinus.ac.id";
+
+ // mula-mula kita buat variabel dengan isi seperti ini
+ var age = 18;
+ // lalu kita isi ulang
+ age = 21; //tidak perlu menambahkan (var) di depan (namaVariabel), karena kalau ditambahkan berarti membuat variabel baru
+
+ //penghapusan variabel
+ bookTitle = "Belajar Pemrograman Javascript";
+ delete bookTitle;
+
+ // menampilkan variabel ke jendela dialog (alert)
+ alert("Selamat datang di " + name);
+ 
+ // menampilkan variabel ke dalam HTML
+ document.write("Nama Situs: " + name + "<br>");
+ document.write("Jumlah Pengunjung: " + visitorCount + "<br>");
+ document.write("Status Aktif: " + isActive + "<br>");
+ document.write("Alamat URL: " + url + "<br>");
+ document.write("Umur rata-rata pengguna: " + age + "<br>");
+ document.write("Apa yang dilakukan pengguna: " + bookTitle + "<br>"); //jika variabel didelete maka program ini tidak akan jalan atau tidak ditampilkan
+ </script>
+</head>
+<body>
+ 
+</body>
+</html>
